@@ -1,0 +1,76 @@
+.encabezado {
+    background-color: rgb(211, 209, 209);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: inline-flex
+}
+
+.encabezado img {
+    display: block;
+    margin-left: 20%;
+    border: 3px solid black;
+    border-radius: 25px 0px 25px 0px;
+}
+
+.encabezado h1 {
+    font-family: Georgia, times, serif;
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 25px;
+    color: rgb(34, 33, 33);
+    padding-left: 70px;
+    text-decoration: underline;
+}
+
+.encabezado h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin: 0 auto;
+    color: rgb(34, 33, 33);
+    padding: 25px;
+    padding-left: 100px;
+}
+
+.bloques {
+    background-color: rgb(61, 61, 60);
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bloques section {
+
+    border: 3px solid black;
+    width: 40%;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: rgb(211, 209, 209);
+
+}
+
+.bloques section li {
+    font-family: georgia, times, serif;
+    font-size: 18px;
+    color: black;
+
+}
+
+.bloques section h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+}
+
+.pie {
+    background-color: rgb(211, 209, 209);
+    height: 30px;
+    text-align: right;
+    border: 2px solid black;
+    padding-top: 8px;
+    padding-right: 8px;
+    
+}
